@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.4.2",
-    "axios": "^0.21.2",
     "bootstrap": "^4.3.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
