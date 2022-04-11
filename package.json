@@ -6,7 +6,7 @@
   "main": "App.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "react-scripts build",
+    "build": "webpack serve --open --config webpack.dev.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
