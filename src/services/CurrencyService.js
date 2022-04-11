@@ -1,4 +1,4 @@
-const currencies  = require('./currenciesList');
+import { currencies } from "./currenciesList";
 
 export class CurrencyService {
     

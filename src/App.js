@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from './components/Header';
-import {BitcoinMonitor} from './components/BitcoinMonitor';
+import ReactDOM from 'react-dom';
+import Header from 'components/Header';
+import {BitcoinMonitor} from 'components/BitcoinMonitor';
 import './App.scss';
 
 function App() {
@@ -14,5 +15,5 @@ function App() {
   );
 }
 
-export default App;
+ReactDOM.render(<App />, document.getElementById("app"));
 

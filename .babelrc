@@ -1,0 +1,21 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-transform-arrow-functions",
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-transform-template-literals",
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ],
+        [
+            "@babel/plugin-proposal-class-properties"
+        ]
+    ]
+}

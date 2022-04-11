@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {DisplayScreen} from './DisplayScreen';
-import { BitcoinService }  from '../services/BitcoinService';
-import { CurrencyService } from '../services/CurrencyService';
+import { DisplayScreen } from './DisplayScreen';
+import { BitcoinService }  from 'services/BitcoinService';
+import { CurrencyService } from 'services/CurrencyService';
 
 const bitcoinService = new BitcoinService();
 const currencyService = new CurrencyService();
@@ -111,7 +111,7 @@ class BitcoinMonitor extends Component {
 
 
     render() {
-
+        
         const suggestion = '* Select other Currencies using dropdown.'
 
         return (
