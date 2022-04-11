@@ -2,10 +2,9 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const PATHS = {
-  app: path.resolve(__dirname, "/src/App.js"),
+  app: path.resolve(__dirname, "/src/index.js"),
   build: path.resolve(__dirname, "dist"),
-  index: path.join(__dirname, "src", "index.html"),
-  favicon: path.join(__dirname, "/src/bitcoin.png")
+  index: path.join(__dirname, "public", "index.html")
 };
 
 module.exports = {
@@ -45,8 +44,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: PATHS.index,
-      favicon: PATHS.favicon
+      template: PATHS.index
     }),
   ],
   output: {

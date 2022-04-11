@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { DisplayScreen } from './DisplayScreen';
-import { BitcoinService }  from 'services/BitcoinService';
-import { CurrencyService } from 'services/CurrencyService';
+import { BitcoinService }  from '../services/BitcoinService';
+import { CurrencyService } from '../services/CurrencyService';
 
 const bitcoinService = new BitcoinService();
 const currencyService = new CurrencyService();
